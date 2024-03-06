@@ -75,7 +75,7 @@
 //Console.WriteLine("Merhaba");
 //Console.ReadLine();
 #endregion
-#region WaitHandle.SingleAndWait
+#region WaitHandle.SignalAndWait
 AutoResetEvent autoResetEvent1 = new(false);
 AutoResetEvent autoResetEvent2 = new(false);
 
